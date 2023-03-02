@@ -1,14 +1,13 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: cornsilk;
-    color: lavenderblush;
+    background-color: rgb(203, 203, 248);
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 100vw;
     font-family: 'Roboto Mono';
-    font-weight: 100;
+    font-weight: 900;
 }
 
 header {
@@ -23,14 +22,16 @@ header {
 .share-button {
     width: 40px;
     height: 40px;
-    border-radius: 20px;
-    background-color: rgb(240,240,240);
+    border-radius: 50px;
+    border: 1.3px solid #0f0f0f;
+    background-color: rgba(173, 255, 50, 0.723);
+    opacity: 80%;
 }
 
 .share-button svg {
     margin-left: 12px;
     margin-top: 10px;
-    color: rgb(0,0,0);
+    color: #0f0f0f;
 }
 
 #bg-container {
@@ -55,32 +56,35 @@ header {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
-    color: #0f0f0f;
+    color: black;
+    background-color: linen;
+    padding: 2px;
     margin-bottom: 30px;
-    font-family: 'Dancing Script';
-    background-color: lavenderblush;
-    padding: 5px;
+    font-family: 'Silkscreen';
 }
 
 .website {
     font-family: 'Dancing Script';
     font-size: 19px;
-    font-weight: bld;
-    color: greenyellow;
+    font-weight: 900;
+    color: #0f0f0f;
+    border-bottom: 2px solid black;
 }
 
 a {
     text-decoration: none;
-    color: rgb(240,240,240);
+    color: #0f0f0f;
 }
 
 .tile {
     width: 100%;
-    background-color: #0f0f0f;
+    background-color: rgba(173, 255, 50, 0.723);
+    opacity: 92%;
     margin: 7px;
     border-radius: 17px;
+    border: 1.3px solid #0f0f0f;
     display: flex;
     justify-content: space-between;
     z-index: 1;
@@ -96,25 +100,27 @@ a {
     width: 40px;
     height: 40px;
     border-radius: 20px;
-    background-color: rgb(52,52,52);
+    
 }
 
 .tile-share-button svg {
     margin-left: 12px;
     margin-top: 10px;
+    color: #0f0f0f;
 }
 
 
 .image-container {
-    height: 96px;
-    width: 96px;
-    border-radius: 48px;
+    height: 140px;
+    width: 140px;
+    border-radius: 60%;
+    border: 1px solid #0f0f0f;
     overflow: hidden;
     z-index: 1;
 }
 
 .image-container img {
-    height: 102%;
+    height: 100%;
 }
 
 .icon {
